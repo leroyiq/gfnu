@@ -1,17 +1,20 @@
-import { Advantages } from 'components/Advantages';
-import { Footer } from 'components/Footer';
-import { Futures } from 'components/Futures';
-import { Navigation } from 'components/Navigation';
-import { SliderMain } from 'components/SliderMain';
+import { Route, Routes } from 'react-router-dom';
+import { SharedLayout } from 'components';
+import { AboutUs, Contacts, Home, Membership, News, NotFound } from 'Page';
 
 export const App = () => {
   return (
     <div className="container">
-      <Navigation />
-      <SliderMain />
-      <Futures />
-      <Advantages />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
+          <Route path="news" element={<News />} />
+          <Route path="membership" element={<Membership />} />
+          <Route path="contacts" element={<Contacts />} />
+          <Route path="about" element={<AboutUs />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
     </div>
   );
 };
