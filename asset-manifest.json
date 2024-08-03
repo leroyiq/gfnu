@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gfnu/static/css/main.caf1054a.css",
-    "main.js": "/gfnu/static/js/main.d2c26466.js",
+    "main.css": "/gfnu/static/css/main.1d7bfb48.css",
+    "main.js": "/gfnu/static/js/main.46b73013.js",
     "static/media/slick.svg": "/gfnu/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/gfnu/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/gfnu/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/gfnu/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/gfnu/index.html",
-    "main.caf1054a.css.map": "/gfnu/static/css/main.caf1054a.css.map",
-    "main.d2c26466.js.map": "/gfnu/static/js/main.d2c26466.js.map"
+    "main.1d7bfb48.css.map": "/gfnu/static/css/main.1d7bfb48.css.map",
+    "main.46b73013.js.map": "/gfnu/static/js/main.46b73013.js.map"
   },
   "entrypoints": [
-    "static/css/main.caf1054a.css",
-    "static/js/main.d2c26466.js"
+    "static/css/main.1d7bfb48.css",
+    "static/js/main.46b73013.js"
   ]
 }
