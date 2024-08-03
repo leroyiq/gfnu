@@ -1,22 +1,26 @@
-import React from 'react'
-import logo from '../img/logo.png'
-
+import React from 'react';
+import logo from '../img/logo.png';
+import { BTN, DIVLOGO, DIVNAV, NAV, UL } from './Navigation.styled';
 
 export const Navigation = () => {
   return (
-    <nav>
-          <img src={logo} alt="Logo" width={30} />
+    <NAV>
+      <DIVNAV>
+        <DIVLOGO>
+          <img src={logo} alt="Logo" />
           <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
+        </DIVLOGO>
 
-          <ul>
-            <li>Домашня</li>
-            <li>Новини</li>
-            <li>Членство ГФНУ</li>
-            <li>Контакти</li>
-            <li>Про Нас</li>
-          </ul>
+        <UL>
+          <li>Домашня</li>
+          <li>Новини</li>
+          <li>Членство ГФНУ</li>
+          <li>Контакти</li>
+          <li>Про Нас</li>
+        </UL>
+      </DIVNAV>
 
-          <button>Заявка на вступ</button>
-      </nav>
-  )
-}
+      <BTN>Заявка на вступ</BTN>
+    </NAV>
+  );
+};

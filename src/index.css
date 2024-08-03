@@ -1,4 +1,6 @@
-
+:root {
+  --primary-color-text: rgba(255, 255, 255, 0.842);
+}
 
 body {
   margin: 0;
@@ -7,6 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 code {
@@ -20,5 +28,9 @@ code {
   margin: 0 auto;
   padding: 0 20px;
   outline: 1px solid black;
+  font-size: 16px;
+  background-color: rgba(31, 39, 50, 0.81);
+  color: var(--primary-color-text);
+  
 }
 
