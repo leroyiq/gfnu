@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gfnu/static/css/main.784eed89.css",
-    "main.js": "/gfnu/static/js/main.985dbc8d.js",
+    "main.css": "/gfnu/static/css/main.ea72a340.css",
+    "main.js": "/gfnu/static/js/main.70a0781e.js",
     "static/media/bgmain.png": "/gfnu/static/media/bgmain.40e8e438468e604251f5.png",
     "static/media/man.png": "/gfnu/static/media/man.d59525822227a9f1b7f7.png",
     "static/media/slick.svg": "/gfnu/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,11 +9,11 @@
     "static/media/slick.ttf": "/gfnu/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/gfnu/index.html",
     "static/media/slick.woff": "/gfnu/static/media/slick.295183786cd8a1389865.woff",
-    "main.784eed89.css.map": "/gfnu/static/css/main.784eed89.css.map",
-    "main.985dbc8d.js.map": "/gfnu/static/js/main.985dbc8d.js.map"
+    "main.ea72a340.css.map": "/gfnu/static/css/main.ea72a340.css.map",
+    "main.70a0781e.js.map": "/gfnu/static/js/main.70a0781e.js.map"
   },
   "entrypoints": [
-    "static/css/main.784eed89.css",
-    "static/js/main.985dbc8d.js"
+    "static/css/main.ea72a340.css",
+    "static/js/main.70a0781e.js"
   ]
 }
