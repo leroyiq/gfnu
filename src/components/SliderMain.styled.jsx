@@ -6,7 +6,7 @@ export const DivSlider = styled.div`
   height: auto;
   background-image: linear-gradient(#0a0a0a73, #0a0a0a73), url(${bgnImage});
   position: relative;
-  outline: 4px solid #ec0101c8;
+  /* outline: 4px solid #ec0101c8; */
   background-position: center;
   background-repeat: no-repeat;
 `;
