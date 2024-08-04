@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { colors } from 'themes/const';
 
@@ -7,15 +8,14 @@ export const DIVLOGO = styled.div`
   justify-content: start;
   height: 115px;
   border-color: transparent;
-  border-bottom: 1px solid ${colors.lightGray};
 
   & img {
     margin-right: 20px;
     width: 50px;
   }
   & span {
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
     letter-spacing: 0px;
     color: ${colors.primary};
     text-shadow: #2e2e2e 0 4px 5px;
@@ -34,29 +34,23 @@ export const DIVLOGO = styled.div`
 
 export const UL = styled.ul`
   display: flex;
+  width: 100%;
   align-items: center;
+  justify-content: start;
   color: ${colors.primary};
   list-style: none;
   gap: 30px;
-
+  border-bottom: 1px solid ${colors.lightGray};
+  border-top: 1px solid ${colors.lightGray};
   padding-top: 20px;
-
-  & li {
-    transition: all 0.6s ease;
-    padding: 1em 1.5em;
-    border-radius: 5px;
-  }
-
-  & li:hover {
-    background-color: ${colors.lightGray};
-    color: ${colors.acent};
-  }
+  padding-bottom: 20px;
 `;
 
 export const NAV = styled.nav`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+
   font-family: 'Comfortaa', sans-serif;
   font-optical-sizing: auto;
   border-color: transparent;
@@ -70,7 +64,7 @@ export const BTN = styled.button`
   background-color: ${colors.fluid};
   cursor: pointer;
 
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Comfortaa', sans-serif;
   margin: 0 20px;
   color: ${colors.primary};
@@ -79,6 +73,7 @@ export const BTN = styled.button`
   &:hover {
     background-color: ${colors.lightGray};
     color: ${colors.acent};
+    scale: 1.005;
   }
 
   &::after,
@@ -117,7 +112,29 @@ export const BTN = styled.button`
 
 export const DIVNAV = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+`;
+
+export const NavLinkStyled = styled(NavLink)`
+  text-decoration: none;
+  color: ${colors.primary};
+  padding: 1em 1.5em;
+  font-size: 18px;
+  transition: all 0.5s ease;
+
+  &.active {
+    color: ${colors.acent};
+    border-bottom: 2px solid ${colors.acent};
+  }
+
+  &:hover {
+    color: ${colors.acent};
+    border-bottom: 2px solid ${colors.primary};
+    scale: 1.005;
+  }
 `;
