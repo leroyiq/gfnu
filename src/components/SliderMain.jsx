@@ -5,6 +5,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { BTN } from './Navigation.styled';
 import manImg from '../img/man.png';
+import certificate from '../img/sertificat.png';
+import qrcode from '../img/qr.png';
 import { DIV, DivSlide, IMG } from './SliderMain.styled';
 
 function SampleNextArrow(props) {
@@ -45,9 +47,9 @@ export const SliderMain = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     speed: 500,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     cssEase: 'linear',
     arrows: true,
     fade: true,
@@ -66,13 +68,21 @@ export const SliderMain = () => {
           <BTN>Приєднуйся</BTN>
         </DivSlide>
       </DIV>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
+      <DIV>
+        <IMG className="slide2" src={certificate} alt="certificate" />
+        <DivSlide>
+          <h3>Ми — група сертифікованих професіоналів у сфері нерухомості </h3>
+          <p>Ми допомогли незліченній кількості сімей знайти свій дім.</p>
+        </DivSlide>
+      </DIV>
+      <DIV>
+        <IMG className="slide3" src={qrcode} alt="qrcode" />
+        <DivSlide>
+          <h3>Ми — група сертифікованих професіоналів у сфері нерухомості </h3>
+          <p>Ми допомогли незліченній кількості сімей знайти свій дім.</p>
+        </DivSlide>
+      </DIV>
+      {/* <div>
         <h3>4</h3>
       </div>
       <div>
@@ -80,7 +90,7 @@ export const SliderMain = () => {
       </div>
       <div>
         <h3>6</h3>
-      </div>
+      </div> */}
     </Slider>
   );
 };

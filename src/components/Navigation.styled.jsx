@@ -126,6 +126,7 @@ export const NavLinkStyled = styled(NavLink)`
   padding: 1em 1.5em;
   font-size: 18px;
   transition: all 0.5s ease;
+  margin-left: 1.5em;
 
   &.active {
     color: ${colors.acent};

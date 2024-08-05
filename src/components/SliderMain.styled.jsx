@@ -17,6 +17,23 @@ export const IMG = styled.img`
   height: auto;
   bottom: 0;
   right: 0;
+  transition: transform 0.6s ease;
+
+  &.slide2 {
+    width: 50%;
+    bottom: 50%;
+    right: 80px;
+    transform: translateY(50%);
+    box-shadow: 2px 2px 20px 9px rgba(236, 180, 24, 0.22);
+  }
+
+  &.slide3 {
+    width: 40%;
+    bottom: 50%;
+    right: 80px;
+    transform: translateY(50%);
+    box-shadow: 2px 2px 20px 9px rgba(236, 180, 24, 0.22);
+  }
 `;
 
 export const DIV = styled.div`
@@ -25,14 +42,14 @@ export const DIV = styled.div`
   min-height: 750px;
 `;
 export const DivSlide = styled.div`
-  width: 672px;
+  width: 600px;
   height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  padding-top: 80px;
-  padding-left: 100px;
+  padding-top: 130px;
+  padding-left: 130px;
 
   & h3 {
     font-family: 'Cormorant Garamond', serif;
