@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/gfnu/static/css/main.ea72a340.css",
-    "main.js": "/gfnu/static/js/main.70a0781e.js",
+    "main.js": "/gfnu/static/js/main.d4052233.js",
     "static/media/bgmain.png": "/gfnu/static/media/bgmain.40e8e438468e604251f5.png",
+    "static/media/sertificat.png": "/gfnu/static/media/sertificat.1245ccd89e7ce276772a.png",
     "static/media/man.png": "/gfnu/static/media/man.d59525822227a9f1b7f7.png",
+    "static/media/qr.png": "/gfnu/static/media/qr.7961ca9d9ffb8f10cb59.png",
     "static/media/slick.svg": "/gfnu/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/gfnu/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/gfnu/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/gfnu/index.html",
     "static/media/slick.woff": "/gfnu/static/media/slick.295183786cd8a1389865.woff",
     "main.ea72a340.css.map": "/gfnu/static/css/main.ea72a340.css.map",
-    "main.70a0781e.js.map": "/gfnu/static/js/main.70a0781e.js.map"
+    "main.d4052233.js.map": "/gfnu/static/js/main.d4052233.js.map"
   },
   "entrypoints": [
     "static/css/main.ea72a340.css",
-    "static/js/main.70a0781e.js"
+    "static/js/main.d4052233.js"
   ]
 }
