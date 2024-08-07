@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-
+import fresca2 from '../img/freska2.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { BTN } from './Navigation.styled';
@@ -64,6 +64,7 @@ export const SliderMain = () => {
         <IMG src={manImg} alt="men" />
         <DivSlide>
           <h3>Ми — група сертифікованих професіоналів у сфері нерухомості </h3>
+          <img src={fresca2} alt="fresca" />
           <p>Ми допомогли незліченній кількості сімей знайти свій дім.</p>
           <BTN>Приєднуйся</BTN>
         </DivSlide>
@@ -71,15 +72,27 @@ export const SliderMain = () => {
       <DIV>
         <IMG className="slide2" src={certificate} alt="certificate" />
         <DivSlide>
-          <h3>Ми — група сертифікованих професіоналів у сфері нерухомості </h3>
-          <p>Ми допомогли незліченній кількості сімей знайти свій дім.</p>
+          <h3>Сертифікат члена ГФНУ </h3>
+          <img src={fresca2} alt="fresca" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam itaque
+            accusantium tempore nesciunt veniam, adipisci corrupti ab error odio
+            hic voluptatum molestias quisquam id optio blanditiis unde magnam
+            quaerat quibusdam!
+          </p>
         </DivSlide>
       </DIV>
       <DIV>
         <IMG className="slide3" src={qrcode} alt="qrcode" />
         <DivSlide>
-          <h3>Ми — група сертифікованих професіоналів у сфері нерухомості </h3>
-          <p>Ми допомогли незліченній кількості сімей знайти свій дім.</p>
+          <h3>Персональний QR код </h3>
+          <img src={fresca2} alt="fresca" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+            provident nisi tempore distinctio inventore, veniam nam totam
+            quibusdam doloremque quas repellendus in dolorum dolores sunt quia
+            pariatur, cumque molestias iure.
+          </p>
         </DivSlide>
       </DIV>
       {/* <div>

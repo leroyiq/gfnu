@@ -1,15 +1,22 @@
-import React from 'react'
+import React from 'react';
+import futuresPic from '../img/preimushchestvo.jpg';
+import fresca2 from '../img/freska2.png';
+import { DF, DF_TEXT } from './Futures.styled';
 
 export const Futures = () => {
   return (
-    <div>
-        <img src="" alt="futures" />
-        <h2>Welcome to Attorney Law - Lawyer & Law Firm Company</h2>
-        <p>We are a group of civil litigation/trial attorneys who focus on providing a justice based on the issues relating to insurance defense, insurance coverage, bad faith, insurance fraud and criminal litigation.</p>
-
-        <div>Case Success</div>
-        <div>Experience</div>
-
-    </div>
-  )
-}
+    <DF>
+      <img src={futuresPic} alt="futures" />
+      <DF_TEXT>
+        <h2>Що вам дає членство ГФНУ?</h2>
+        <img src={fresca2} alt="fresca" />
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+        </ul>
+      </DF_TEXT>
+    </DF>
+  );
+};

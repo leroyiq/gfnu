@@ -9,6 +9,7 @@ export const DivSlider = styled.div`
   /* outline: 4px solid #ec0101c8; */
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 50px;
 `;
 
 export const IMG = styled.img`
@@ -43,27 +44,36 @@ export const DIV = styled.div`
 `;
 export const DivSlide = styled.div`
   width: 600px;
+  max-width: 500px;
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   align-items: start;
   padding-top: 130px;
   padding-left: 130px;
+  gap: 15px;
 
   & h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 35px;
+    font-size: 40px;
     width: 100%;
     max-width: 669px;
+    margin: 0;
+    text-align: center;
   }
 
   & p {
     font-size: 18px;
-
+    margin: 0;
     max-width: 655px;
     width: 100%;
     line-height: 1.6;
     color: ${colors.acent};
+    flex-grow: 1;
+  }
+
+  & img {
+    margin: 0 auto;
   }
 `;

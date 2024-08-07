@@ -1,34 +1,39 @@
-import React from 'react'
+import React from 'react';
+import fresca2 from '../img/freska2.png';
+import { DivAdv } from './Advantages.styled';
+import { IoFingerPrint } from 'react-icons/io5';
+import { MdSupportAgent } from 'react-icons/md';
+import { FaPeopleGroup } from 'react-icons/fa6';
+import { GiPodiumWinner } from 'react-icons/gi';
 
 export const Advantages = () => {
   return (
-    <div>
-        <h2>Explore The perfect Our Practice Areas</h2>
-        <p>Our practice areas are designed to help you develop your skills and gain valuable experience in the following areas:</p>
-        <ul>
-          <li>
-            <h3>Business Law</h3>
-            <span>React is a popular library for building user interfaces</span>
-          </li>
-          <li>
-            <h3>Business Law</h3>
-            <span>React is a popular library for building user interfaces</span>
-          </li>
-          <li>
-            <h3>Business Law</h3>
-            <span>React is a popular library for building user interfaces</span>
-          </li>
-          <li>
-            <h3>Business Law</h3>
-            <span>React is a popular library for building user interfaces</span>
-          </li>
-          <li>
-            <h3>Business Law</h3>
-            <span>React is a popular library for building user interfaces</span>
-          </li>
-          
-        </ul>
-      </div>
-    
-  )
-}
+    <DivAdv>
+      <h2>Переваги бути з нами</h2>
+      <img src={fresca2} alt="fresca" />
+
+      <ul>
+        <li>
+          <IoFingerPrint className="react-icons" />
+          <h3>Безпека</h3>
+          <span>Lorem ipsum dolor sit amet.</span>
+        </li>
+        <li>
+          <MdSupportAgent className="react-icons" />
+          <h3>Підтримка</h3>
+          <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </li>
+        <li>
+          <FaPeopleGroup className="react-icons" />
+          <h3>Реферальна програма</h3>
+          <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </li>
+        <li>
+          <GiPodiumWinner className="react-icons" />
+          <h3>Визнання</h3>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+        </li>
+      </ul>
+    </DivAdv>
+  );
+};
