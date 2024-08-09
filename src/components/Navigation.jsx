@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../img/logo.png';
 import {
   BTN,
+  BtnMenu,
   DIVLOGO,
   DIVNAV,
   NAV,
   NavLinkStyled,
   UL,
 } from './Navigation.styled';
+import { MobMenu } from './MobMenu';
+import { VscMenu } from 'react-icons/vsc';
 
 export const Navigation = () => {
+  const [mob, setMob] = useState(false);
+  const toggleMobMenu = () => setMob(!mob);
+
   return (
     <NAV>
       <DIVNAV>
@@ -17,7 +23,11 @@ export const Navigation = () => {
           <img src={logo} alt="Logo" />
           <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
         </DIVLOGO>
-        {/* <BTN>Заявка на вступ</BTN> */}
+        <BTN>Заявка на вступ</BTN>
+        <BtnMenu className="menu" onClick={toggleMobMenu}>
+          <VscMenu />
+        </BtnMenu>
+        {mob && <MobMenu close={toggleMobMenu} />}
       </DIVNAV>
       <UL>
         <NavLinkStyled
