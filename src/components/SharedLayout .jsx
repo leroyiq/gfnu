@@ -1,14 +1,15 @@
 import { Navigation } from 'components';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import { SharedDiv } from './SharedLayout.styled';
 
 export const SharedLayout = () => {
   return (
     <>
-      <div>
+      <SharedDiv>
         <Navigation />
-      </div>
-      <Outlet />
+        <Outlet />
+      </SharedDiv>
     </>
   );
 };

@@ -17,7 +17,7 @@ export const Navigation = () => {
           <img src={logo} alt="Logo" />
           <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
         </DIVLOGO>
-        <BTN>Заявка на вступ</BTN>
+        {/* <BTN>Заявка на вступ</BTN> */}
       </DIVNAV>
       <UL>
         <NavLinkStyled

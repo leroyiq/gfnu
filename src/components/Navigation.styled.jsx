@@ -6,16 +6,20 @@ export const DIVLOGO = styled.div`
   display: flex;
   align-items: center;
   justify-content: start;
-  height: 115px;
+  /* width: 115px; */
   border-color: transparent;
+  padding: 15px;
 
   & img {
     margin-right: 20px;
-    width: 50px;
+    width: 40px;
+    border-right: 1px solid ${colors.acent};
+    padding-right: 15px;
   }
   & span {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 42px;
+    font-size: 20px;
+    text-align: center;
     letter-spacing: 0px;
     color: ${colors.primary};
     text-shadow: #2e2e2e 0 4px 5px;
@@ -33,8 +37,9 @@ export const DIVLOGO = styled.div`
 `;
 
 export const UL = styled.ul`
-  display: flex;
+  display: none;
   width: 100%;
+  flex-direction: column;
   align-items: center;
   justify-content: start;
   color: ${colors.primary};
@@ -50,7 +55,7 @@ export const NAV = styled.nav`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 100%;
   font-family: 'Comfortaa', sans-serif;
   font-optical-sizing: auto;
   border-color: transparent;
@@ -112,12 +117,10 @@ export const BTN = styled.button`
 
 export const DIVNAV = styled.div`
   display: flex;
-  width: 100%;
-  flex-direction: row;
+  width: auto;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
 `;
 
 export const NavLinkStyled = styled(NavLink)`
