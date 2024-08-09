@@ -1,17 +1,14 @@
-import { Footer, Navigation, SliderMain } from 'components';
+import { Navigation } from 'components';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { DivSlider } from './SliderMain.styled';
 
 export const SharedLayout = () => {
   return (
     <>
-      <DivSlider>
+      <div>
         <Navigation />
-        <SliderMain />
-      </DivSlider>
+      </div>
       <Outlet />
-      <Footer />
     </>
   );
 };
