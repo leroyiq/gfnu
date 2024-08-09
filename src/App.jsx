@@ -9,7 +9,9 @@ export const App = () => {
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
 
-          <Route path="membership" element={<Membership />} />
+          <Route path="membership" element={<Membership />}>
+            <Route path="membershipReg" element={<NotFound />} />
+          </Route>
           <Route path="contacts" element={<Contacts />} />
           <Route path="about" element={<AboutUs />} />
           <Route path="*" element={<NotFound />} />

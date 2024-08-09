@@ -11,7 +11,7 @@ export const DIVHome = styled.div`
 
   & h1 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -31,5 +31,6 @@ export const DIVHome = styled.div`
   & img {
     display: block;
     width: 90%;
+    box-shadow: 0px 0px 20px 5px rgba(240, 202, 10, 0.18);
   }
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import certificate from '../img/sertificat.png';
-import idCard from '../img/sertificat.png';
+import idCard from '../img/id_card.png';
 import qrCode from '../img/qr.png';
 import { DIVHome } from './HomeStyled.styled';
 export const Home = () => {

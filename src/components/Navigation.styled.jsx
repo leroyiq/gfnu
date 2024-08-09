@@ -67,6 +67,7 @@ export const DivMob = styled.div`
   background-color: ${colors.darkGray};
   gap: 50px;
   transition: all 0.6s ease;
+  z-index: 1000;
 
   & .closeMob {
     width: 20px;
