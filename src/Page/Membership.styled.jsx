@@ -29,12 +29,15 @@ export const MemberDiv = styled.div`
   & li {
     margin-bottom: 10px;
     font-family: 'Comfortaa', sans-serif;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+
     line-height: 20px;
 
+    &.contactsItem {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
     & .contactIcon {
       width: 30px;
       height: 30px;

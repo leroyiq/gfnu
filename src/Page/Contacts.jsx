@@ -12,29 +12,29 @@ export const Contacts = () => {
     <MemberDiv>
       <h2>Наші контакти</h2>
       <ul>
-        <li>
+        <li className="contactsItem">
           <ImLocation className="contactIcon" />
           Юридична адреса
           <br /> 61057, м. Харків, пров. Театральний, 4
         </li>
-        <li>
+        <li className="contactsItem">
           <FcBusinessman className="contactIcon" />
           Керівник
           <br /> Молчанов Євгеній Миколайович
         </li>
-        <li>
+        <li className="contactsItem">
           <FaViber className="contactIcon" />
           Viber
         </li>
-        <li>
+        <li className="contactsItem">
           <FaWhatsapp className="contactIcon" />
           Whatsapp
         </li>
-        <li>
+        <li className="contactsItem">
           <FaTelegram className="contactIcon" />
           Telegram
         </li>
-        <li>
+        <li className="contactsItem">
           <FaInstagram className="contactIcon" />
           Instagram
         </li>
