@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://leroyiq.github.io/gfnu/",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "modern-normalize": "^2.0.0",
     "react": "^18.1.0",

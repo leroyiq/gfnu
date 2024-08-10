@@ -1,41 +1,21 @@
-import React, { useState } from 'react';
-import logo from '../img/logo.png';
+import React from 'react';
+import { BtnClose, DivMob, NavLinkStyled, UlMob } from './Navigation.styled';
+import { GrClose } from 'react-icons/gr';
 
-import {
-  BTN,
-  BtnMenu,
-  DIVLOGO,
-  DIVNAV,
-  NAV,
-  NavLinkStyled,
-  UL,
-} from './Navigation.styled';
-import { MobMenu } from './MobMenu';
-import { VscMenu } from 'react-icons/vsc';
-
-export const Navigation = () => {
-  const [mob, setMob] = useState(false);
-  const toggleMobMenu = () => setMob(!mob);
-
+export const MobMenu = ({ close }) => {
   return (
-    <NAV>
-      <DIVNAV>
-        <DIVLOGO>
-          <img src={logo} alt="Logo" />
-          <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
-        </DIVLOGO>
-        <BTN>Заявка на вступ</BTN>
-        <BtnMenu className="menu" onClick={toggleMobMenu}>
-          <VscMenu />
-        </BtnMenu>
-        {mob && <MobMenu close={toggleMobMenu} />}
-      </DIVNAV>
-      <UL>
+    <DivMob>
+      <BtnClose onClick={close}>
+        <GrClose className="closeMob" />
+      </BtnClose>
+
+      <UlMob>
         <NavLinkStyled
           to="/"
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
+          onClick={close}
         >
           Домашня
         </NavLinkStyled>
@@ -45,6 +25,7 @@ export const Navigation = () => {
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
+          onClick={close}
         >
           Членство ГФНУ
         </NavLinkStyled>
@@ -53,6 +34,7 @@ export const Navigation = () => {
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
+          onClick={close}
         >
           Контакти
         </NavLinkStyled>
@@ -61,10 +43,11 @@ export const Navigation = () => {
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
+          onClick={close}
         >
           Про Нас
         </NavLinkStyled>
-      </UL>
-    </NAV>
+      </UlMob>
+    </DivMob>
   );
 };
