@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../img/logo.png';
+
 import {
   BTN,
   BtnMenu,
@@ -38,14 +39,7 @@ export const Navigation = () => {
         >
           Домашня
         </NavLinkStyled>
-        <NavLinkStyled
-          to="/news"
-          className={({ isActive, isPending }) =>
-            isPending ? 'pending' : isActive ? 'active' : ''
-          }
-        >
-          Новини
-        </NavLinkStyled>
+
         <NavLinkStyled
           to="/membership"
           className={({ isActive, isPending }) =>
