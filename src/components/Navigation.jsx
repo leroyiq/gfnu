@@ -12,19 +12,24 @@ import {
 } from './Navigation.styled';
 import { MobMenu } from './MobMenu';
 import { VscMenu } from 'react-icons/vsc';
+import { useNavigate } from 'react-router-dom';
 
 export const Navigation = () => {
   const [mob, setMob] = useState(false);
   const toggleMobMenu = () => setMob(!mob);
 
+  const navigate = useNavigate();
+  const joy = () => navigate('membership');
+  const backHome = () => navigate('/');
+
   return (
     <NAV>
       <DIVNAV>
-        <DIVLOGO>
+        <DIVLOGO onClick={backHome}>
           <img src={logo} alt="Logo" />
           <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
         </DIVLOGO>
-        <BTN>Заявка на вступ</BTN>
+        <BTN onClick={joy}>Заявка на вступ</BTN>
         <BtnMenu className="menu" onClick={toggleMobMenu}>
           <VscMenu />
         </BtnMenu>
