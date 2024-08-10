@@ -8,15 +8,8 @@ export const DIVHome = styled.div`
   justify-content: center;
   width: 100%;
   gap: 20px;
-
-  & h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 15px;
-  }
+  margin-top: 20px;
+  padding-bottom: 20px;
 
   & span {
     display: flex;
@@ -24,6 +17,7 @@ export const DIVHome = styled.div`
     justify-content: center;
     gap: 10px;
     flex-direction: column;
+    margin-top: 20px
     margin-bottom: 20px;
     color: ${colors.acent};
   }
