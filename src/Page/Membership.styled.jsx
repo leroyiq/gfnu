@@ -47,13 +47,9 @@ export const MemberDiv = styled.div`
   }
 
   & span {
-    border: 1px solid ${colors.acentry};
-    font-weight: bold;
-    color: ${colors.warning};
-    font-size: 16px;
-    text-align: center;
-    padding: 5px 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+
+    font-family: 'Comfortaa', sans-serif;
     margin-left: 10px;
     margin-right: 10px;
   }

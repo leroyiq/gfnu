@@ -6,11 +6,9 @@ import { DIVHome } from './HomeStyled.styled';
 export const Home = () => {
   return (
     <DIVHome>
-      <h1>ГФНУ — група сертифікованих професіоналів у сфері нерухомості</h1>
-
       <span>
         <img src={certificate} alt="сертифікат" />
-        Сертифікат учасника ГФНУ
+        Свідоцтво учасника ГФНУ
       </span>
       <span>
         <img src={idCard} alt="посвідчення" />
