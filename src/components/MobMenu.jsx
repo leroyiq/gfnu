@@ -27,7 +27,7 @@ export const MobMenu = ({ close }) => {
           }
           onClick={close}
         >
-          Членство ГФНУ
+          Члени ГФНУ
         </NavLinkStyled>
         <NavLinkStyled
           to="/contacts"

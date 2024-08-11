@@ -11,6 +11,13 @@ export const DIVHome = styled.div`
   margin-top: 20px;
   padding-bottom: 20px;
 
+  @media  (min-width: 1024px) {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 40px;
+  }
+
   & span {
     display: flex;
     align-items: center;
