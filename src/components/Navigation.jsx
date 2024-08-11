@@ -19,7 +19,7 @@ export const Navigation = () => {
   const toggleMobMenu = () => setMob(!mob);
 
   const navigate = useNavigate();
-  const joy = () => navigate('membership');
+  const joy = () => navigate('introduction');
   const backHome = () => navigate('/');
 
   return (
@@ -29,7 +29,7 @@ export const Navigation = () => {
           <img src={logo} alt="Logo" />
           <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
         </DIVLOGO>
-        <BTN onClick={joy}>Заявка на вступ</BTN>
+        <BTN onClick={joy}>Вступ до ГФНУ</BTN>
         <BtnMenu className="menu" onClick={toggleMobMenu}>
           <VscMenu />
         </BtnMenu>

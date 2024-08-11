@@ -30,6 +30,10 @@ export const DIVLOGO = styled.div`
     text-transform: none;
     transition: all 0.6s ease;
 
+    @media (min-width: 1024px) {
+      font-size: 30px;
+    }
+
     &:hover {
       color: ${colors.acent};
     }
@@ -103,6 +107,10 @@ export const BtnMenu = styled.button`
   color: ${colors.primary};
   transition: all 0.6s ease;
 
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
   &:hover {
     background-color: ${colors.lightGray};
     color: ${colors.acent};
@@ -154,6 +162,11 @@ export const NAV = styled.nav`
   font-optical-sizing: auto;
   border-color: transparent;
   color: ${colors.primary};
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 `;
 
 export const BTN = styled.button`
@@ -269,6 +282,13 @@ export const DIVNAV = styled.div`
   align-items: center;
   gap: 15px;
   position: relative;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    width: 100%;
+  }
 `;
 
 export const NavLinkStyled = styled(NavLink)`
