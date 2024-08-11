@@ -51,7 +51,7 @@ export const Navigation = () => {
             isPending ? 'pending' : isActive ? 'active' : ''
           }
         >
-          Членство ГФНУ
+          Члени ГФНУ
         </NavLinkStyled>
         <NavLinkStyled
           to="/contacts"

@@ -43,7 +43,7 @@ export const DIVLOGO = styled.div`
 export const UL = styled.ul`
   display: none;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: start;
   color: ${colors.primary};
@@ -53,6 +53,10 @@ export const UL = styled.ul`
   border-top: 1px solid ${colors.lightGray};
   padding-top: 20px;
   padding-bottom: 20px;
+
+  @media (min-width: 1024px) {
+    display: flex;
+  }
 `;
 
 export const DivMob = styled.div`
@@ -164,7 +168,7 @@ export const NAV = styled.nav`
   color: ${colors.primary};
 
   @media (min-width: 1024px) {
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
   }
 `;

@@ -30,7 +30,7 @@ export const MemberDiv = styled.div`
     margin-bottom: 10px;
     font-family: 'Comfortaa', sans-serif;
 
-    line-height: 20px;
+    line-height: 1.5;
 
     &.contactsItem {
       align-items: center;
@@ -52,6 +52,7 @@ export const MemberDiv = styled.div`
     font-family: 'Comfortaa', sans-serif;
     margin-left: 10px;
     margin-right: 10px;
+    line-height: 1.5;
   }
 
   & p {
@@ -62,5 +63,6 @@ export const MemberDiv = styled.div`
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
+    line-height: 1.5;
   }
 `;
