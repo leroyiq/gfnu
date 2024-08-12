@@ -14,17 +14,13 @@ export const MemberCard = () => {
     return (
       <MemberDiv>
         <MemberForm>
+          <h2>Дійсний член ГФНУ</h2>
           <img src={fotoId} alt={name} />
+          <h3>
+            {name} {surname}
+          </h3>
           <label>
-            Прізвище:
-            <input type="text" disabled value={surname} />
-          </label>
-          <label>
-            Ім'я:
-            <input type="text" disabled value={name} />
-          </label>
-          <label>
-            Дата видачі свідотства:
+            Номер свідотства:
             <input type="text" disabled value={activateDate} />
           </label>
           <label>
