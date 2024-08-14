@@ -12,7 +12,6 @@ export const MemberDiv = styled.div`
   margin: 0 auto;
   font-size: 16px;
   gap: 20px;
-  
 
   & a {
     text-decoration: none;
@@ -25,6 +24,7 @@ export const MemberDiv = styled.div`
 
   & ul {
     width: 90%;
+    list-style-type: circle;
   }
 
   & li {
