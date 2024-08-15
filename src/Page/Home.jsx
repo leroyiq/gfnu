@@ -8,15 +8,13 @@ export const Home = () => {
     <DIVHome>
       <span>
         <img src={certificate} alt="сертифікат" />
-        Свідоцтво учасника ГФНУ
       </span>
       <span>
         <img src={idCard} alt="посвідчення" />
-        Посвідчення учасника ГФНУ
       </span>
       <span>
         <img src={qrCode} alt="QR-code" />
-        Персональний QR-code
+        Індивідуальний QR-code
       </span>
     </DIVHome>
   );

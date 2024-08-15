@@ -17,9 +17,12 @@ export const DIVHome = styled.div`
     justify-content: center;
     gap: 10px;
     flex-direction: column;
-    margin-top: 20px
+    margin-top: 20px;
     margin-bottom: 20px;
     color: ${colors.acent};
+
+    @media (min-width: 1024px) {
+      width: 100%;
   }
 
   & img {

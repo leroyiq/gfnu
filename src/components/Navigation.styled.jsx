@@ -30,6 +30,10 @@ export const DIVLOGO = styled.div`
     text-transform: none;
     transition: all 0.6s ease;
 
+    @media (min-width: 1024px) {
+      font-size: 30px;
+    }
+
     &:hover {
       color: ${colors.acent};
     }
@@ -39,7 +43,7 @@ export const DIVLOGO = styled.div`
 export const UL = styled.ul`
   display: none;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: start;
   color: ${colors.primary};
@@ -49,6 +53,10 @@ export const UL = styled.ul`
   border-top: 1px solid ${colors.lightGray};
   padding-top: 20px;
   padding-bottom: 20px;
+
+  @media (min-width: 1024px) {
+    display: flex;
+  }
 `;
 
 export const DivMob = styled.div`
@@ -103,6 +111,10 @@ export const BtnMenu = styled.button`
   color: ${colors.primary};
   transition: all 0.6s ease;
 
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
   &:hover {
     background-color: ${colors.lightGray};
     color: ${colors.acent};
@@ -154,6 +166,11 @@ export const NAV = styled.nav`
   font-optical-sizing: auto;
   border-color: transparent;
   color: ${colors.primary};
+
+  @media (min-width: 1024px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 `;
 
 export const BTN = styled.button`
@@ -269,6 +286,13 @@ export const DIVNAV = styled.div`
   align-items: center;
   gap: 15px;
   position: relative;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    width: 100%;
+  }
 `;
 
 export const NavLinkStyled = styled(NavLink)`
