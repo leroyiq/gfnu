@@ -6,7 +6,7 @@ import { App } from 'App';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- <BrowserRouter basename='/' >
+ <BrowserRouter basename='' >
     <App />
 </BrowserRouter>
 );
