@@ -29,7 +29,7 @@ export const Navigation = () => {
           <img src={logo} alt="Logo" />
           <span>ГІЛЬДІЯ ФАХІВЦІВ З НЕРУХОМОСТІ УКРАЇНИ</span>
         </DIVLOGO>
-        <BTN onClick={joy}>ВступГФНУ</BTN>
+        <BTN onClick={joy}>Вступ до ГФНУ</BTN>
         <BtnMenu className="menu" onClick={toggleMobMenu}>
           <VscMenu />
         </BtnMenu>
