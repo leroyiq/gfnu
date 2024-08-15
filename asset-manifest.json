@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "//gfnu.com.ua/static/css/main.4c52a41a.css",
-    "main.js": "//gfnu.com.ua/static/js/main.e4bbf6fb.js",
+    "main.js": "//gfnu.com.ua/static/js/main.16d816c8.js",
     "static/media/sertificat.png": "//gfnu.com.ua/static/media/sertificat.0aec8e6a2d38eec234d0.png",
     "static/media/bgmain.png": "//gfnu.com.ua/static/media/bgmain.40e8e438468e604251f5.png",
     "static/media/qr.png": "//gfnu.com.ua/static/media/qr.7961ca9d9ffb8f10cb59.png",
@@ -11,10 +11,10 @@
     "static/media/memCard.png": "//gfnu.com.ua/static/media/memCard.b375c309be90e72ef5bd.png",
     "index.html": "//gfnu.com.ua/index.html",
     "main.4c52a41a.css.map": "//gfnu.com.ua/static/css/main.4c52a41a.css.map",
-    "main.e4bbf6fb.js.map": "//gfnu.com.ua/static/js/main.e4bbf6fb.js.map"
+    "main.16d816c8.js.map": "//gfnu.com.ua/static/js/main.16d816c8.js.map"
   },
   "entrypoints": [
     "static/css/main.4c52a41a.css",
-    "static/js/main.e4bbf6fb.js"
+    "static/js/main.16d816c8.js"
   ]
 }
