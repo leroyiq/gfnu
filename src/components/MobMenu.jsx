@@ -21,7 +21,7 @@ export const MobMenu = ({ close }) => {
         </NavLinkStyled>
 
         <NavLinkStyled
-          to="/membership/"
+          to="/membership"
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
@@ -30,7 +30,7 @@ export const MobMenu = ({ close }) => {
           Члени ГФНУ
         </NavLinkStyled>
         <NavLinkStyled
-          to="/contacts/"
+          to="/contacts"
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
@@ -39,7 +39,7 @@ export const MobMenu = ({ close }) => {
           Контакти
         </NavLinkStyled>
         <NavLinkStyled
-          to="/about/"
+          to="/about"
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? 'active' : ''
           }
