@@ -11,7 +11,7 @@ export const Contacts = () => {
       <h2>Наші контакти</h2>
       <ul>
         <li className="contactsItem">
-          <a href="viber://add?number=%2B380932394579">
+          <a href="viber://chat?number=%2B380932394579">
             <FaViber className="contactIcon" />
             Viber
           </a>
