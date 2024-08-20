@@ -15,7 +15,11 @@ export const MemberDiv = styled.div`
 
   & a {
     text-decoration: none;
-    color: ${colors.acent};
+    color: ${colors.primary};
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
 
     &.active {
       border-bottom: 2px solid ${colors.acent};
@@ -30,7 +34,6 @@ export const MemberDiv = styled.div`
   & li {
     margin-bottom: 10px;
     font-family: 'Comfortaa', sans-serif;
-
     line-height: 1.5;
 
     &.contactsItem {
