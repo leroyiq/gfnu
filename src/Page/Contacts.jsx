@@ -11,13 +11,13 @@ export const Contacts = () => {
       <h2>Наші контакти</h2>
       <ul>
         <li className="contactsItem">
-          <a href="viber://chat?number=%2B380632481234">
+          <a href="viber://chat?number=%2B380932394579">
             <FaViber className="contactIcon" />
             Viber
           </a>
         </li>
         <li className="contactsItem">
-          <a href="https://wa.me/qr/UFV5FUBOXKUCH1">
+          <a href="https://wa.me/380932394579">
             <FaWhatsapp className="contactIcon" />
             Whatsapp
           </a>
