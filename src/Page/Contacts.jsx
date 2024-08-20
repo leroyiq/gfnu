@@ -21,8 +21,10 @@ export const Contacts = () => {
           <br /> Молчанов Євгеній Миколайович
         </li> */}
         <li className="contactsItem">
-          <FaViber className="contactIcon" />
-          Viber
+          <a href="viber://chat?number=%2B4957777777">
+            <FaViber className="contactIcon" />
+            Viber
+          </a>
         </li>
         <li className="contactsItem">
           <FaWhatsapp className="contactIcon" />
