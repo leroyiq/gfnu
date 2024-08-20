@@ -33,7 +33,7 @@ export const Contacts = () => {
           </a>
         </li>
         <li className="contactsItem">
-          <a href="https://t.me/dmitro_kh">
+          <a href="https://t.me/dmitro_kv">
             <FaTelegram className="contactIcon" />
             Telegram
           </a>
