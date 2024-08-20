@@ -42,7 +42,7 @@ export const Introduction = () => {
       <h3>Вступити до ГФНУ</h3>
       <ul>
         <li className="contactsItem">
-          <a href="viber://chat?number=%2B380932394579">
+          <a href="viber://add?number=%2B380932394579">
             <FaViber className="contactIcon" />
             Viber
           </a>
