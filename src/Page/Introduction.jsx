@@ -42,16 +42,22 @@ export const Introduction = () => {
       <h3>Вступити до ГФНУ</h3>
       <ul>
         <li className="contactsItem">
-          <FaViber className="contactIcon" />
-          Viber
+          <a href="viber://chat?number=%2B380632481234">
+            <FaViber className="contactIcon" />
+            Viber
+          </a>
         </li>
         <li className="contactsItem">
-          <FaWhatsapp className="contactIcon" />
-          Whatsapp
+          <a href="https://wa.me/qr/UFV5FUBOXKUCH1">
+            <FaWhatsapp className="contactIcon" />
+            Whatsapp
+          </a>
         </li>
         <li className="contactsItem">
-          <FaTelegram className="contactIcon" />
-          Telegram
+          <a href="https://t.me/dmitro_kv">
+            <FaTelegram className="contactIcon" />
+            Telegram
+          </a>
         </li>
         <li className="contactsItem">
           <FaInstagram className="contactIcon" />

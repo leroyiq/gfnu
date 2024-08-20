@@ -10,16 +10,6 @@ export const Contacts = () => {
     <MemberDiv>
       <h2>Наші контакти</h2>
       <ul>
-        {/* <li className="contactsItem">
-          <ImLocation className="contactIcon" />
-          Юридична адреса
-          <br /> 61057, м. Харків, пров. Театральний, 4
-        </li>
-        <li className="contactsItem">
-          <FcBusinessman className="contactIcon" />
-          Керівник
-          <br /> Молчанов Євгеній Миколайович
-        </li> */}
         <li className="contactsItem">
           <a href="viber://chat?number=%2B380632481234">
             <FaViber className="contactIcon" />
@@ -27,7 +17,7 @@ export const Contacts = () => {
           </a>
         </li>
         <li className="contactsItem">
-          <a href="https://wa.me/380632481234">
+          <a href="https://wa.me/qr/UFV5FUBOXKUCH1">
             <FaWhatsapp className="contactIcon" />
             Whatsapp
           </a>
