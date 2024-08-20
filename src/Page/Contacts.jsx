@@ -27,12 +27,16 @@ export const Contacts = () => {
           </a>
         </li>
         <li className="contactsItem">
-          <FaWhatsapp className="contactIcon" />
-          Whatsapp
+          <a href="https://wa.me/380632481234">
+            <FaWhatsapp className="contactIcon" />
+            Whatsapp
+          </a>
         </li>
         <li className="contactsItem">
-          <FaTelegram className="contactIcon" />
-          Telegram
+          <a href="https://t.me/dmitro_kh">
+            <FaTelegram className="contactIcon" />
+            Telegram
+          </a>
         </li>
         <li className="contactsItem">
           <FaInstagram className="contactIcon" />
