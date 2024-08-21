@@ -29,6 +29,7 @@ export const MemberDiv = styled.div`
   & ul {
     width: 90%;
     list-style-type: circle;
+    margin-left: 20px;
   }
 
   & li {
@@ -54,9 +55,11 @@ export const MemberDiv = styled.div`
     /* text-align: center; */
 
     font-family: 'Comfortaa', sans-serif;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-right: 10px;
     line-height: 1.5;
+    padding: 0 20px;
+    text-indent: 20px;
   }
 
   & p {
@@ -68,5 +71,6 @@ export const MemberDiv = styled.div`
     margin-bottom: 10px;
     padding-top: 10px;
     line-height: 1.5;
+    text-indent: 20px;
   }
 `;
