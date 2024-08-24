@@ -54,7 +54,7 @@ export const Introduction = () => {
           </a>
         </li>
         <li className="contactsItem">
-          <a href="https://t.me/dmitro_kv">
+          <a href="https://t.me/G_f_n_u">
             <FaTelegram className="contactIcon" />
             Telegram
           </a>
