@@ -10,7 +10,7 @@ export const MemberCard = () => {
 
   const visibleCard = baseMembership.find(card => card.id === memberCard);
   if (visibleCard) {
-    const { fotoId, name, surname, activateDate, expiredDate } = visibleCard;
+    const { fotoId, name, surname, certNumber, expiredDate } = visibleCard;
     return (
       <MemberDiv>
         <MemberForm>
@@ -21,7 +21,7 @@ export const MemberCard = () => {
           </h3>
           <label>
             Номер свідотства:
-            <input type="text" disabled value={activateDate} />
+            <input type="text" disabled value={certNumber} />
           </label>
           <label>
             Дійсно до:
