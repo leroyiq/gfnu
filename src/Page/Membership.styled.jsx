@@ -60,6 +60,10 @@ export const MemberDiv = styled.div`
     line-height: 1.5;
     padding: 0 20px;
     text-indent: 20px;
+
+    & ident {
+      text-indent: 20px;
+    }
   }
 
   & p {
