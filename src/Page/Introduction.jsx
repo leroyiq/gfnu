@@ -60,8 +60,10 @@ export const Introduction = () => {
           </a>
         </li>
         <li className="contactsItem">
-          <FaInstagram className="contactIcon" />
-          Instagram
+          <a href="https://www.instagram.com/gfnu_2024?igsh=aDVmdjlndXlhZ2Yy">
+            <FaInstagram className="contactIcon" />
+            Instagram
+          </a>
         </li>
       </ul>
     </MemberDiv>
