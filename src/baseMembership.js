@@ -1,6 +1,7 @@
 // import { nanoid } from "nanoid";
 import fenikOleg from './fotoID/fenikOleg.png'
 import fenikRostislav from './fotoID/fenikRostislav.png'
+import kalaturOlena from './fotoID/kalaturOlena.png'
 
 export const baseMembership = [
     {
@@ -19,6 +20,15 @@ export const baseMembership = [
         certNumber: '1480',
         expiredDate: '06/09/2026',
         fotoId: `${fenikRostislav}`,
+
+    },
+    {
+        id: "3a83984d-6c55-4fa2-8934-9b31b4dacda5",
+        name: 'Олена',
+        surname: 'Калатур',
+        certNumber: '1481',
+        expiredDate: '09/09/2026',
+        fotoId: `${kalaturOlena}`,
 
     }
 
