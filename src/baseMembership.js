@@ -2,8 +2,8 @@
 import fenikOleg from './fotoID/fenikOleg.png'
 import fenikRostislav from './fotoID/fenikRostislav.png'
 import kalaturOlena from './fotoID/kalaturOlena.png'
-import antonPalashek from './fotoID/antonPalashek'
-import ugoZapadLogo from './fotoID/ugoZapadLogo'
+import antonPalashek from './fotoID/antonPalashek.png'
+import ugoZapadLogo from './fotoID/Ugo-Zapad.png'
 
 export const baseMembership = [
     {
