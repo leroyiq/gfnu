@@ -3,6 +3,7 @@ import fenikOleg from './fotoID/fenikOleg.png'
 import fenikRostislav from './fotoID/fenikRostislav.png'
 import kalaturOlena from './fotoID/kalaturOlena.png'
 import antonPalashek from './fotoID/antonPalashek'
+import ugoZapadLogo from './fotoID/ugoZapadLogo'
 
 export const baseMembership = [
     {
@@ -47,7 +48,7 @@ export const baseMembership = [
         surname: '«Юго-Запад»',
         certNumber: '1483',
         expiredDate: '13/09/2026',
-        fotoId: `${antonPalashek}`,
+        fotoId: `${ugoZapadLogo}`,
 
     }
 
