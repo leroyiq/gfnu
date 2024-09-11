@@ -2,6 +2,7 @@
 import fenikOleg from './fotoID/fenikOleg.png'
 import fenikRostislav from './fotoID/fenikRostislav.png'
 import kalaturOlena from './fotoID/kalaturOlena.png'
+import antonPalashek from './fotoID/antonPalashek'
 
 export const baseMembership = [
     {
@@ -29,6 +30,24 @@ export const baseMembership = [
         certNumber: '1481',
         expiredDate: '09/09/2026',
         fotoId: `${kalaturOlena}`,
+
+    },
+    {
+        id: "3ee7fa10-151f-41b9-89e8-bcd5e5012d40",
+        name: 'Антон',
+        surname: 'Палашек',
+        certNumber: '1482',
+        expiredDate: '13/09/2026',
+        fotoId: `${antonPalashek}`,
+
+    },
+    {
+        id: "c4d54359-90dd-44d1-8ad1-67e0210f8d33",
+        name: 'АН',
+        surname: '«Юго-Запад»',
+        certNumber: '1483',
+        expiredDate: '13/09/2026',
+        fotoId: `${antonPalashek}`,
 
     }
 
