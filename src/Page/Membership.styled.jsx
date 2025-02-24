@@ -13,6 +13,11 @@ export const MemberDiv = styled.div`
   font-size: 16px;
   gap: 20px;
 
+  & .payLink {
+    color: ${colors.acent};
+    cursor: pointer;
+    text-decoration: underline;
+  }
   & a {
     text-decoration: none;
     color: ${colors.primary};
@@ -42,12 +47,23 @@ export const MemberDiv = styled.div`
       display: flex;
       flex-direction: row;
       gap: 20px;
+      cursor: pointer;
     }
     & .contactIcon {
       width: 30px;
       height: 30px;
 
       fill: ${colors.acent};
+    }
+    & details[open] summary {
+      color: ${colors.warning};
+    }
+    & summary {
+      display: block;
+    }
+    & .sp {
+      color: ${colors.info};
+      text-align: center;
     }
   }
 
@@ -61,9 +77,9 @@ export const MemberDiv = styled.div`
     padding: 0 20px;
     text-indent: 20px;
 
-    & ident {
+    /* & ident {
       text-indent: 20px;
-    }
+    } */
   }
 
   & p {
