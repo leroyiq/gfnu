@@ -61,6 +61,9 @@ export const MemberDiv = styled.div`
     & summary {
       display: block;
     }
+    & summary::-webkit-details-marker {
+      display: none;
+    }
     & .sp {
       color: ${colors.info};
       text-align: center;
