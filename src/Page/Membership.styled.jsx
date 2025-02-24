@@ -66,7 +66,8 @@ export const MemberDiv = styled.div`
     }
     & .sp {
       color: ${colors.info};
-      text-align: center;
+      padding-left: 20px;
+      font-size: 14px;
     }
   }
 
